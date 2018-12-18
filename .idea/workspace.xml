@@ -2,79 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="492f00a1-ac89-4007-b554-b4075df2da55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo2/res/csv/atlas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo2/res/img/atlas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo2/res/js/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo3/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo3/bird.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo3/img/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo3/img/bird.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo3/img/obs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo3/img/over.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo3/img/pre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo3/img/start.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/bird.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/ceiling.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_big.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_big_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_big_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_big_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_big_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_big_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_big_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_big_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_big_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_big_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_big_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_small.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_small_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_small_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_small_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_small_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_small_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_small_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_small_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_small_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_small_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/font_small_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/land.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/medal_bronze.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/medal_gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/medal_platinum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/medal_silver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/pipe-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/pipe-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/pipe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/replay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/scoreboard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/sky.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/sounds/sfx_die.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/sounds/sfx_hit.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/sounds/sfx_point.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/sounds/sfx_swooshing.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/sounds/sfx_wing.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/assets/thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/js/brain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/js/buzz.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/js/jquery.transit.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deemo4/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/csv/atlas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/atlas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deemo5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/deemo5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deemo5/js/brain.js" beforeDir="false" afterPath="$PROJECT_DIR$/deemo5/js/brain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deemo5/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/deemo5/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -90,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deemo5/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="-155">
+              <caret line="194" column="102" selection-start-line="194" selection-start-column="102" selection-end-line="194" selection-end-column="102" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -104,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deemo5/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="684">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
@@ -113,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deemo5/js/brain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="1404">
+              <caret line="78" column="68" lean-forward="true" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -146,6 +76,7 @@
       <find>best</find>
       <find>interval</find>
       <find>cookie</find>
+      <find>next</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,12 +99,13 @@
         <option value="$PROJECT_DIR$/deemo3/index.html" />
         <option value="$PROJECT_DIR$/deemo3/bird.js" />
         <option value="$PROJECT_DIR$/deemo3/brain.js" />
-        <option value="$PROJECT_DIR$/deemo5/js/brain.js" />
+        <option value="$PROJECT_DIR$/deemo5/index.html" />
         <option value="$PROJECT_DIR$/deemo5/js/main.js" />
+        <option value="$PROJECT_DIR$/deemo5/js/brain.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="280" />
     <option name="y" value="-8" />
     <option name="width" value="1089" />
@@ -257,11 +189,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26023000" />
+    <option name="totallyTimeSpent" value="28919000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12750264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -398,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deemo5/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="-155">
+          <caret line="194" column="102" selection-start-line="194" selection-start-column="102" selection-end-line="194" selection-end-column="102" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -410,15 +341,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deemo5/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        <state relative-caret-position="684">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deemo5/js/brain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="1404">
+          <caret line="78" column="68" lean-forward="true" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
         </state>
       </provider>
     </entry>

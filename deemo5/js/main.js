@@ -115,10 +115,9 @@ function showSplash() {
 
 	//fade in the splash
 	$("#splash").transition({opacity: 1}, 2000, 'ease');
-
+	//
 	var timer = setTimeout(function () {
 		screenClick();
-
 		clearTimeout(timer);
 	}, 2500)
 };
@@ -141,7 +140,7 @@ function startGame() {
 	//start up our loops
 	var updaterate = 1000.0 / 60.0; //60 times a second
 	loopGameloop = setInterval(gameloop, updaterate);
-	loopPipeloop = setInterval(updatePipes, 1000);
+	loopPipeloop = setInterval(updatePipes, 2000);
 	//jump from the start!
 	playerJump();
 }
@@ -192,8 +191,8 @@ function gameloop() {
 		return;
 	};
 
-	var state = { speed : Math.ceil(velocity) , diffY : Math.ceil(Math.random() * 1000) , diffX: Math.ceil(Math.random() * 1000) } ;
-	var nextState = { speed : Math.ceil(velocity) , diffY :Math.ceil(Math.random() * 1000) , diffX:Math.ceil(Math.random() * 1000) } ;
+	var state = { speed : Math.ceil(velocity) , diffY : Math.ceil(Math.random() * 1000) , diffX : Math.ceil(Math.random() * 1000) } ;
+	var nextState = { speed : Math.ceil(velocity) , diffY : Math.ceil(Math.random() * 1000) , diffX : Math.ceil(Math.random() * 1000) } ;
 
 	if(pipes.length >= 2 ){
 

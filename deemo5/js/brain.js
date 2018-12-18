@@ -62,7 +62,7 @@ QL.prototype.getAction = function (state) {
 QL.prototype.award = function (state, nextState, award, action) {
 	var config_next = [nextState.diffY , nextState.diffX];
 
-	var backward = this.table.getQ(state , action);
+	var backward = (1 - this.alpha ) * this.table.getQ(state , action);
 
 	var _forward = this.alpha * (award + this.gamma * Math.max(this.table.getQ(config_next, this.config.jump), this.table.getQ(config_next, this.config.stay)));
 
@@ -72,13 +72,11 @@ QL.prototype.award = function (state, nextState, award, action) {
 };
 
 QL.prototype.next = function (state , nextState , award) {
-
 	if(this.state === 'continue'){
-
 		this.episode += 1 ;
 		var action = this.getAction(state) ;
 
-		this.award(state , nextState , award , this.lastAction) ;
+		// this.award(state , nextState , award , this.lastAction) ;
 
 		this.lastAction = action ;
 
@@ -91,4 +89,4 @@ QL.prototype.next = function (state , nextState , award) {
 
 QL.prototype.upDateStata = function(state){
 	this.state = state ;
-}
+};
