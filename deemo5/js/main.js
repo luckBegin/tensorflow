@@ -51,12 +51,9 @@ var soundSwoosh = new buzz.sound("assets/sounds/sfx_swooshing.ogg");
 buzz.all().setVolume(volume);
 
 //loops
-var loopGameloop;
-var loopPipeloop;
-
+var loopGameloop ;
+var loopPipeloop ;
 var Q_learn = new QL({ 'jump' : 1 , 'stay' : 0 } , 0.8 , 1 ) ;
-
-
 $(document).ready(function () {
 	if (window.location.search == "?debug")
 		debugmode = true;
@@ -124,7 +121,6 @@ function showSplash() {
 
 
 function startGame() {
-	Q_learn.upDateStata('continue') ;
 	currentstate = states.GameScreen;
 	//fade out the splash
 	$("#splash").stop();
@@ -185,17 +181,11 @@ function gameloop() {
 		boundingbox.css('width', boxwidth);
 	};
 
-	//did we hit the ground?
-	if (box.bottom >= $("#land").offset().top) {
-		playerDead();
-		return;
-	};
+	var state = {  diffY : 999 , diffX : 999 } ;
 
-	var state = { speed : Math.ceil(velocity) , diffY : Math.ceil(Math.random() * 1000) , diffX : Math.ceil(Math.random() * 1000) } ;
-	var nextState = { speed : Math.ceil(velocity) , diffY : Math.ceil(Math.random() * 1000) , diffX : Math.ceil(Math.random() * 1000) } ;
+	var nextState = { diffY : 999 , diffX : 999 } ;
 
 	if(pipes.length >= 2 ){
-
 		var currentPipe = $(pipes[0]).find(".pipe_lower").offset() ;
 
 		var nextPipe = $(pipes[1]).find(".pipe_lower").offset() ;
@@ -208,7 +198,19 @@ function gameloop() {
 
 		nextState.diffY = Math.ceil(boxleft - nextPipe.top) ;
 	};
-	Q_learn.next(state , nextState , 1 ) ;
+
+	var action = Q_learn.getAction(state) ;
+
+	if(action === 1 ){
+		screenClick();
+	};
+
+	//did we hit the ground?
+	if (box.bottom >= $("#land").offset().top) {
+		playerDead();
+		Q_learn.award(state , nextState , -1000 , action)
+		return;
+	};
 	//have they tried to escape through the ceiling? :o
 	var ceiling = $("#ceiling");
 	if (boxtop <= (ceiling.offset().top + ceiling.height()))
@@ -244,6 +246,7 @@ function gameloop() {
 
 		} else {
 			//no! we touched the pipe
+			Q_learn.award(state , nextState , -1000 , action)
 			playerDead();
 			return;
 		}
@@ -254,7 +257,7 @@ function gameloop() {
 	if (boxleft > piperight) {
 		//yes, remove it
 		pipes.splice(0, 1);
-
+		Q_learn.award(state , nextState , 1 , action)
 		//and score a point
 		playerScore();
 	}
@@ -357,7 +360,6 @@ function playerDead() {
 	var floor = flyArea;
 	var movey = Math.max(0, floor - playerbottom);
 	$("#player").transition({y: movey + 'px', rotate: 90}, 1000, 'easeInOutCubic');
-
 	//it's time to change states. as of now we're considered ScoreScreen to disable left click/flying
 	currentstate = states.ScoreScreen;
 
@@ -366,8 +368,6 @@ function playerDead() {
 	clearInterval(loopPipeloop);
 	loopGameloop = null;
 	loopPipeloop = null;
-
-	Q_learn.upDateStata("dead") ;
 	//mobile browsers don't support buzz bindOnce event
 	if (isIncompatible.any()) {
 		//skip right to showing score
@@ -379,7 +379,8 @@ function playerDead() {
 				showScore();
 			});
 		});
-	};
+	}
+	;
 };
 
 function showScore() {
